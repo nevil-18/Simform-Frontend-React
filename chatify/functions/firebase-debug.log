@@ -1,0 +1,17 @@
+[debug] [2022-01-26T13:58:04.470Z] ----------------------------------------------------------------------
+[debug] [2022-01-26T13:58:04.474Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2022-01-26T13:58:04.474Z] CLI Version:   10.1.2
+[debug] [2022-01-26T13:58:04.474Z] Platform:      win32
+[debug] [2022-01-26T13:58:04.475Z] Node Version:  v14.17.4
+[debug] [2022-01-26T13:58:04.476Z] Time:          Wed Jan 26 2022 19:28:04 GMT+0530 (India Standard Time)
+[debug] [2022-01-26T13:58:04.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-26T13:58:04.581Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-26T13:58:04.581Z] > authorizing via signed-in user (nilesh.hadiyel@playpowerlabs.com)
+[debug] [2022-01-26T13:58:04.585Z] > refreshing access token with scopes: []
+[debug] [2022-01-26T13:58:04.586Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-26T13:58:05.070Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 26 Jan 2022 13:58:05 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-26T13:58:05.151Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2022-01-26T13:58:06.243Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-26T13:58:06.244Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
