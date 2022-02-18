@@ -1,6 +1,12 @@
+import { render } from 'react-dom';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from "./App";
+import Users from './containers/users';
+import { Provider } from 'react-redux';
+import UsersStore from './store';
 
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App name="Nilesh"/>, mountNode);
+render(
+  <Provider store={UsersStore}>
+    <Users />
+  </Provider>,
+  document.getElementById('app')
+);
