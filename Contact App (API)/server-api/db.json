@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    [
+      {
+        "id": "c4be475a-ef49-47d2-a75f-4e8f8d6b9292",
+        "name": "Nilesh",
+        "email": "nilesh123@gmail.com"
+      }
+    ],
+    {
+      "id": "3425c7cc-910e-44ac-a6cf-d44956df688e",
+      "name": "Hadiyel Nilesh",
+      "email": "nilesh.h@simformsolutions.com"
+    },
+    {
+      "id": "32519ec8-92d7-418c-9254-526cf939bf26",
+      "name": "Joe Trics",
+      "email": "joe35@gmail.com"
+    }
+  ]
+}
