@@ -1,13 +1,12 @@
 {
-  "name": "redux-made-easy",
+  "name": "user-list-react-app",
   "version": "1.0.0",
-  "description": "A simple webpack config for my Redux Practical",
+  "description": "Redux Practical",
   "main": "webpack.config.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
-  "author": "CodeWithTim",
-  "license": "ISC",
+  
   "dependencies": {
     "axios": "^0.15.3",
     "babel-core": "^6.21.0",
